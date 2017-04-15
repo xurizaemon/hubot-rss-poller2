@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "hubot-rss-poller2",
+        "scope": null,
+        "escapedName": "hubot-rss-poller2",
+        "name": "hubot-rss-poller2",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/private/tmp"
+    ]
+  ],
+  "_from": "hubot-rss-poller2@latest",
+  "_id": "hubot-rss-poller2@0.0.5",
+  "_inCache": true,
+  "_location": "/hubot-rss-poller2",
+  "_nodeVersion": "4.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/hubot-rss-poller2-0.0.5.tgz_1482310467161_0.7319218488410115"
+  },
+  "_npmUser": {
+    "name": "gobias_nz",
+    "email": "Adam269@gmail.com"
+  },
+  "_npmVersion": "4.0.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "hubot-rss-poller2",
+    "scope": null,
+    "escapedName": "hubot-rss-poller2",
+    "name": "hubot-rss-poller2",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/hubot-rss-poller2/-/hubot-rss-poller2-0.0.5.tgz",
+  "_shasum": "9ce3530fc3bd233f54e3f34637b919c05e115aaa",
+  "_shrinkwrap": null,
+  "_spec": "hubot-rss-poller2",
+  "_where": "/private/tmp",
+  "author": {
+    "name": "Anson Wayman",
+    "email": "kanoyugoro@gmail.com"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.3.19",
+    "fs-promise": "^0.5.0",
+    "nodepie": "^0.7.0",
+    "request-promise": "^3.0.0"
+  },
+  "description": "A simple poller for RSS feeds in hubot.  It will alert to chat on updates to the feed polled on a regular interval.",
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-core": "^6.2.1",
+    "babel-eslint": "^6.0.2",
+    "babel-plugin-add-module-exports": "^0.1.1",
+    "babel-plugin-transform-runtime": "^6.4.3",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18",
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "eslint": "^2.6.0",
+    "eslint-config-airbnb": "^7.0.0",
+    "eslint-plugin-mocha": "^2.0.0",
+    "mocha": "^2.3.4"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "9ce3530fc3bd233f54e3f34637b919c05e115aaa",
+    "tarball": "https://registry.npmjs.org/hubot-rss-poller2/-/hubot-rss-poller2-0.0.5.tgz"
+  },
+  "engine": {
+    "node": ">=4.2.2"
+  },
+  "files": [
+    "lib"
+  ],
+  "gitHead": "ef03fe5284b48b614722ded32208ad01ac5a3757",
+  "licenses": [
+    {
+      "type": "The MIT License",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "gobias_nz",
+      "email": "Adam269@gmail.com"
+    }
+  ],
+  "name": "hubot-rss-poller2",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "rm -rf lib && babel src --out-dir lib",
+    "lint": "eslint ./",
+    "prepublish": "npm run build",
+    "test": "npm run lint && mocha"
+  },
+  "version": "0.0.5"
+}
