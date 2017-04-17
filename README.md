@@ -13,6 +13,7 @@ install, or you can specify in an environment variable `HUBOT_RSS_CONFIG_FILE`.
 ```json
 {
   "feeds": [{
+    "id": "filesystem-safe-feed-identifier",
     "name": "Name of the RSS feed goes here",
     "request": {
       "uri": "URI to the RSS feed",
