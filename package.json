@@ -100,7 +100,6 @@
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "scripts": {
-    "build": "rm -rf lib && babel src --out-dir lib",
     "lint": "eslint ./",
     "prepublish": "npm run build",
     "test": "npm run lint && mocha"
